@@ -1,0 +1,52 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build-automation and test helpers used while setting up the project
+/[Aa]ssets/[Ee]ditor/[Cc]ourse[Tt]ools/
+/[Aa]ssets/[Ee]ditor/[Cc]ourse[Tt]ools.meta
+
+# IDE / OS
+.vs/
+.vscode/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+sysinfo.txt
+
+# Headset recordings (large; share them separately)
+/Docs/Videos/
+
+# Android build temp (Gradle / CMake)
+/.utmp/
