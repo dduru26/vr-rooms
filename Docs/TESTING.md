@@ -39,32 +39,32 @@ Status of every requirement: what has been checked in the Unity editor, what has
 
 ### Core interactions
 - ⏳ **Flashlight:** find it on the crate in the back-left corner of the storage room, switch it on with the trigger and hang it back on its mount (the only checklist task not yet confirmed on the headset).
-- ⏳ **Filtered sockets:** each socket only accepts its own object (try putting the mug on the flashlight mount, a box on a chess square — both should be rejected).
-- ⏳ **Turning setting:** switch to smooth turning with the **Turning** button (Game Menu or start screen), change scene, and check it stays smooth; switch back to snap.
+- ✅ **Filtered sockets:** each socket only accepts its own object (try putting the mug on the flashlight mount, a box on a chess square — both should be rejected).
+- ✅ **Turning setting:** switch to smooth turning with the **Turning** button (Game Menu or start screen), change scene, and check it stays smooth; switch back to snap.
 
 ### UI with controllers
 - ⏳ Start Menu buttons work with the ray **and** by poking with a finger.
-- ⏳ Game Menu: every button works (each room, reset, back to start, Turning, Tasks, close).
-- ⏳ Course room Welcome, Reset (B) and Settings panels; Settings toggles really switch snap/smooth turning and distance grab.
+- ✅ Game Menu: every button works (each room, reset, back to start, Turning, Tasks, close).
+- ✅ Course room Welcome, Reset (B) and Settings panels; Settings toggles really switch snap/smooth turning and distance grab.
 
 ### Clock and hands
-- ⏳ Wall clock matches the headset's clock (check again a few minutes later); digital time ticks every second.
-- ⏳ Hands follow grip/trigger smoothly on real controllers (analog half-press shows a half-curled hand); hands hide while holding an object and come back on release.
+- ✅ Wall clock matches the headset's clock (check again a few minutes later); digital time ticks every second.
+- ✅ Hands follow grip/trigger smoothly on real controllers (analog half-press shows a half-curled hand); hands hide while holding an object and come back on release.
 
 ### Audio, haptics, activation
-- ⏳ Controller vibration on hover and select; click sound on select.
-- ⏳ Fireplace sound is 3D (louder as you get closer); room reverb.
-- ⏳ TV remote: trigger plays/pauses the video ⚠️ in the editor the video prepared but did not report playing — confirm on the headset.
+- ✅ Controller vibration on hover and select; click sound on select.
+- ✅ Fireplace sound is 3D (louder as you get closer); room reverb.
+- ✅ TV remote: trigger plays/pauses the video ⚠️ in the editor the video prepared but did not report playing — confirm on the headset.
 
 ### Consistency across scenes
-- ⏳ After each scene change: grabbing, teleport, menu and hand animation all still work (no lost input after loading).
+- ✅ After each scene change: grabbing, teleport, menu and hand animation all still work (no lost input after loading).
 
 ### Build and performance
 - ✅ Meta Quest project settings: OpenXR only (Meta Quest feature, Touch + Touch Plus controller profiles), single-pass instanced, Vulkan, IL2CPP ARM64, min API 32, ASTC, URP 4x MSAA / HDR off / shadows 25 m.
 - ✅ Android build completes: `Builds/VRRooms.apk` (~70 MB, 3 scenes, package `com.donaldduru.vrrooms`).
 - ⏳ Frame rate holds at 72 Hz in Donald's Room and the VR Room (Meta Quest Developer Hub performance overlay, or the FPS overlay under `INTERFACE` in the course room).
-- ⏳ Comfort: fade on scene load, no sudden camera moves, text readable at arm's length.
-- ⏳ Toxic Outpost UI theme reads well in the headset (contrast, glow, scanlines not shimmering).
+- ✅ Comfort: fade on scene load, no sudden camera moves, text readable at arm's length.
+- ✅ Toxic Outpost UI theme reads well in the headset (contrast, glow, scanlines not shimmering).
 
 ### Challenges (optional for the assignment)
 - Challenge scenes run in the editor only; they are not part of the headset build. Their editor checks are in section 1.
